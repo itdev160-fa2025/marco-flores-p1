@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>La Grand Plaza Bar & Grill</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/master.css">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap">
+    </head>
+    <body>
+        <header>
+            <h1>La Grand Plaza Bar & Grill</h1>
+        </header>
+        <main>
+             <figure>
+                <h2>Welcome to La Grand Plaza Bar & Grill</h2>
+                <img src="images/Margarita.jpg" alt="Prepared drinks image">
+                <figcaption>Margarita - <span>Stop by to taste one of our delicious margaritas!</span></figcaption>
+             </figure>
+             <h2>Every sip, every bite and every smile counts.</h2>
+             <p><b>Who are we?</b><br>We are a family owned business. Our goals is to provide an
+                exceptional experience to our costumers by giving an unique taste in our food while also
+                focusing on providing a friendly costumer service.
+             </p>
+             <h2>Menu</h2>
+             <ul>
+                 <li class="list-items">Appettizers</li>
+                    <ul>
+                     <li>Cheese Curds   $11.99</li>
+                     <li class="wings">Traditional wings</li>
+                         <ul>
+                             <li>8 piece    $12.49</li>
+                             <li>12 piece   $21.49</li>
+                         </ul>
+                     <li class="wings">Boneless Wings</li>
+                         <ul>
+                            <li>8 piece     $12.49</li>
+                            <li>12 piece    $21.49</li>
+                         </ul>
+                    </ul>
+                 <li class="list-items">Hand-Crafted Burgers</li>
+                    <dl>
+                        <dt>Swiss Onion Mushroom Burger. Add chipotle: $<span id="chipotle"></span></dt>
+                         <dd>
+                            Sautéed onions and mushrooms, Swiss cheese. Served with
+                            our signature sauce. Fries included
+                            <p>Regular price: $<span id="swiss-price"></span></p>
+                            <p>Price with chipotle: $<span id="swiss-w-chipotle"></span></p>
+                         </dd>
+                        <dt>Quesadilla Burger. Add guacamole: $<span id="guacamole"></span></dt>
+                         <dd>
+                            Chipotle burger between two grilled tortillas, stuffed with
+                            blended cheeses, Pico de Gallo, and mayonnaise. Topped
+                            with jalapeños, and served with seasoned sour cream and
+                            salsa. Fries included.
+                            <p>Regular price: $<span id="quesadilla-price"></span></p>
+                            <p>Price with guacamole: $<span id="quesadilla-w-guacamole"></span></p>
+                         </dd>
+                    </dl>
+                 <li class="list-items">Drinks</li>
+                     <ul>
+                      <li><b>Domestic bottles</b></li>
+                        <ul>
+                            <li>Bud Light $3.49</li>
+                            <li>Bud Light Lime $4.12</li>
+                            <li>Budweiser $4.25</li>
+                        </ul>
+                      <li><b>Premium Bottles</b></li>
+                        <ul>
+                            <li>Corona $6.49</li>
+                            <li>Corona Light $6.49</li>
+                            <li>Heineken $7.25</li>
+                        </ul>
+                      <li><b>Margaritas</b></li>
+                        <dl>
+                            <dt>Premium Margarita</dt>
+                             <dd>
+                                Patron Silver Tequila, Patron Citronge Orange, Margarita Mix,
+                                Lime Garnish. $15.20
+                             </dd>
+                            <dt>House Margarita</dt>
+                             <dd>
+                                Served on the rocks or frozen.
+                                Flavors: Strawberry, Raspberry, Peach, Banana, Mango,
+                                Pomagranate, Blue Raspberry, Blueberry, or Watermelon.
+                                $14.20
+                             </dd>
+                        </dl>
+                     </ul>
+             </ul>
+        <h2>Daily Specials</h2>
+         <table id="specialsTable" border="1" cellspacing="1">
+            <thead>
+              <tr>
+                <th acope="50">Special of the day</th>
+                <th scope="col">Monday</th>
+                <th scope="col">Tuesday</th>
+                <th scope="col">Wednesday</th>
+                <th scope="col">Thursday</th>
+                <th scope="col">Friday</th>
+                <th scope="col">Saturday</th>
+                <th scope="col">Sunday</th>
+              </tr>
+            </thead> 
+            <tbody>
+                <tr>
+                    <td>Happy Hour (3pm-6pm)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="table-color" colspan="3" style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <td>$12 Margarita + Swiss & Mushroom Burger</td>
+                    <td class="table-color"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="table-color"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>$1 Wings</td>
+                    <td></td>
+                    <td></td>
+                    <td class="table-color"></td>
+                    <td></td>
+                    <td class="table-color"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>  
+         </table>
+         <h2>User Reviews</h2>
+         <div class="review">
+            <h3>Schmitt, Johnson</h3>
+            <p>Food was great. Costumer service was very friendly. 
+                Had a good time enjoying some margaritas during happy hour.
+            </p>
+         </div>
+         <div class="review">
+            <h3>Walker, Kyle</h3>
+            <p>Had a great time last friday on $1 wings day.</p>
+         </div>
+         <div class="review">
+            <h3>Mbapee, Kylian</h3>
+            <p>Burgers and margaritas are delicious</p>
+         </div>
+        </main>
+        <script src="js/script.js"></script>
+    </body>
+</html>

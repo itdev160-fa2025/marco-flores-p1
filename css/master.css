@@ -1,0 +1,144 @@
+body {
+    font-family: "Playwrite DE Grund", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+header {
+    background-color: #8B0000; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+h2 {
+    color: #8B0000;
+    border-bottom: 2px solid #8B0000;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 10px;
+    color: #555;
+}
+
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+
+ul, dl {
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+li {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: #020202;
+}
+
+dt {
+    font-weight: bold;
+    
+}
+
+dd {
+    margin-bottom: 15px;
+}
+
+span#chipotle, span#swiss-price, span#swiss-w-chipotle, span#guacamole, span#quesadilla-price, span#quesadilla-w-guacamole {
+
+    color: #020202;
+}
+
+.list-items {
+     color: #8B0000;
+     font-weight: bold;
+}
+
+.wings {
+    color: #020202;
+    font-weight: bolder;
+}
+
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #020202;
+}
+
+th {
+    background-color: #8B0000;
+    color: rgb(247, 246, 246);
+    text-transform: uppercase;
+}
+
+td {
+    background-color: #ffffff;
+}
+
+td.table-color {
+    background-color: #8B0000;
+    
+}
+
+.review {
+    background-color: #f1efef;
+    padding: 15px;
+    border-left: 5px solid #8B0000;
+    margin-bottom: 15px;
+}
+
+.review h3 {
+    margin-top: 0;
+    color: #8B0000;
+}
+
+.review p {
+    font-size: 1rem;
+    color: #000000;
+}
+
